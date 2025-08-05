@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="src/output.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/x-icon" href="favicon.svg" />
+
+    <!-- Lenis CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.8/dist/lenis.css"
+    />
+
+    <title>Resume</title>
+  </head>
+
+  <body class="font-display bg-black text-white container-1 uppercase">
+    <main>
+      <!-- NAVIGATION -->
+      <!-- <section class="pt-4">
+        <nav class="nav-grid uppercase flex justify-between items-center">
+          <div class="logo">
+            <p>JOHN ANGEL GUEVARRA</p>
+          </div>
+
+          <ul class="flex justify-center gap-x-8">
+            <li>selected works</li>
+            <li>skills</li>
+            <li>education</li>
+          </ul>
+
+          <div class="cta flex gap-x-4">
+            <a
+              href="#"
+              target="_blank"
+              class="cta-button-primary flex items-center gap-1"
+            >
+              RESUME
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="10"
+                viewBox="0 0 9 10"
+                fill="none"
+              >
+                <path
+                  d="M8.5 1.25C8.5 0.973858 8.27614 0.75 8 0.75H3.5C3.22386 0.75 3 0.973858 3 1.25C3 1.52614 3.22386 1.75 3.5 1.75H7.5V5.75C7.5 6.02614 7.72386 6.25 8 6.25C8.27614 6.25 8.5 6.02614 8.5 5.75V1.25ZM0.853553 9.10355L8.35355 1.60355L7.64645 0.896447L0.146447 8.39645L0.853553 9.10355Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </section> -->
+
+      <!-- HERO -->
+      <section class="pt-32">
+        <h1 class="uppercase font-semibold responsive-header leading-tight">
+          Frontend Developer Sometimes,
+          <br />
+          UI Designer from time to time.
+        </h1>
+      </section>
+
+      <!-- MAIN GRID SECTION -->
+      <section class="flex max-[1025px]:flex-col pt-[10svh] gap-x-12 gap-y-12">
+        <!-- LEFT: About Me (Sticky Sidebar) -->
+        <div class="min-[1026px]:max-w-1/3">
+          <div class="left-info sticky top-[10svh] flex flex-col gap-y-8">
+            <!-- Personal Info -->
+            <div class="flex flex-col gap-y-4">
+              <h1 class="text-2xl font-semibold">JOHN ANGEL GUEVARRA</h1>
+              <p class="less-visible">
+                I'm a UI designer based in Philippines. I design websites,
+                structure content, and build layouts that work. I focus on user
+                needs and clear design systems. I also create visual assets and
+                handle basic frontend development. I’ve worked on over 80
+                websites, mostly in crypto and Web3. My role often includes
+                turning incomplete notes into full content and designs.
+              </p>
+            </div>
+
+            <!-- Divider Info -->
+            <div class="list-divider flex flex-col gap-y-4">
+              <div class="flex justify-between">
+                <h3 class="less-visible max-sm:text-xs">[ PROFESSION ]</h3>
+                <h3 class="max-sm:text-xs">Website Designer</h3>
+              </div>
+
+              <div class="flex justify-between border-t-2 border-white pt-4">
+                <h3 class="less-visible max-sm:text-xs">[ DATE OF BIRTH ]</h3>
+                <h3 class="max-sm:text-xs">6 JUNE 2004</h3>
+              </div>
+
+              <div class="flex justify-between border-t-2 border-white pt-4">
+                <h3 class="less-visible max-sm:text-xs">[ EDUCATION ]</h3>
+                <h3 class="max-sm:text-xs">INFORMATION TECHNOLOGY</h3>
+              </div>
+
+              <a
+                href="src/Resume.pdf"
+                download
+                class="py-2 mt-8 px-8 flex items-center justify-center bg-white text-black rounded-md text-sm font-medium"
+              >
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Work (Scrollable Content) -->
+        <div class="work w-full space-y-16">
+          <!-- Work Experience -->
+          <div>
+            <h4
+              class="text-xl font-semibold uppercase border-b-2 border-white pb-2 mb-6"
+            >
+              Work Experience
+            </h4>
+
+            <!-- Freelance Website Designer -->
+            <div class="space-y-2">
+              <div class="flex justify-between font-medium">
+                <p>Freelance Website Designer</p>
+                <p>[ June 2025 – Present ]</p>
+              </div>
+              <ul class="list-disc pl-6 text-sm space-y-1 less-visible">
+                <li>
+                  Designed modern website layouts and full UI mockups for a
+                  client
+                </li>
+                <li>
+                  Created graphics and visual content tailored for each website
+                </li>
+                <li>
+                  Wrote and organized website content to match brand tone and
+                  goals
+                </li>
+              </ul>
+            </div>
+
+            <!-- Freelance -->
+            <div class="space-y-2 pt-8">
+              <div class="flex justify-between font-medium">
+                <p>FREELANCE Graphic Designer, Web Developer & Marketing</p>
+                <p>[ July 2023 – January 2025 ]</p>
+              </div>
+              <ul class="list-disc pl-6 text-sm space-y-1 less-visible">
+                <li>
+                  Completed over 80+ crypto-related projects involving web
+                  development and graphic design
+                </li>
+                <li>
+                  Handled both UI/UX design and development using Figma and
+                  custom code
+                </li>
+                <li>
+                  Worked with marketing teams to improve UI, create mockups, and
+                  build social graphics
+                </li>
+                <li>
+                  Turned vague ideas and client notes into full, written website
+                  content
+                </li>
+              </ul>
+            </div>
+
+            <!-- KickFi -->
+            <div class="space-y-2 pt-8">
+              <div class="flex justify-between font-medium">
+                <p>KickFi®: Web Developer & Designer</p>
+                <p>[ August 2021 – September 2021 ]</p>
+              </div>
+              <ul class="list-disc pl-6 text-sm space-y-1 less-visible">
+                <li>
+                  Designed and built the initial version of the KickFi website
+                </li>
+                <li>
+                  Created their first Website designs & Graphics from scratch
+                  based on rough ideas
+                </li>
+                <li>
+                  KickFi is a Web3 app combining AR, football, and social gaming
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div>
+            <h4
+              class="text-xl font-semibold uppercase border-b-2 border-white pb-2 mb-6"
+            >
+              Education
+            </h4>
+
+            <div class="space-y-2">
+              <div class="flex justify-between font-medium less-visible">
+                <p>Dominican College of Tarlac, Inc.</p>
+                <p>Capas, Tarlac</p>
+              </div>
+              <div class="flex justify-between text-sm less-visible">
+                <p>Bachelor of Science in Information Technology</p>
+                <p>[ 2023 – 2027 ]</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div>
+            <h4
+              class="text-xl font-semibold uppercase border-b-2 border-white pb-2 mb-6"
+            >
+              Skills
+            </h4>
+            <p class="text-sm less-visible">
+              HTML, CSS, JavaScript, Tailwind, Figma, Adobe Photoshop, Google
+              Sheets, Git, Teamwork, Communication
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pt-[15rem] pb-[1rem]">
+        <!-- Header -->
+        <h1 class="uppercase font-semibold responsive-header mb-16">
+          let's work together.
+          <br />
+          feel free to send me a dm
+        </h1>
+
+        <!-- Grid Layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <!-- Contact Me Form -->
+          <form
+            action="https://formsubmit.co/johnangelguevarra.6@gmail.com"
+            method="POST"
+            class="flex flex-col gap-6 w-full"
+          >
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Your Email"
+              class="bg-transparent border border-white px-4 py-2 placeholder-white focus:outline-none"
+            />
+            <textarea
+              name="message"
+              required
+              placeholder="Your Message"
+              class="bg-transparent border border-white px-4 py-2 placeholder-white h-40 resize-none focus:outline-none"
+            ></textarea>
+            <button
+              type="submit"
+              class="border border-white px-6 py-2 hover:bg-white hover:text-black transition"
+            >
+              Send
+            </button>
+          </form>
+
+          <!-- Comment Section -->
+          <form class="flex flex-col gap-6 w-full">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="bg-transparent border border-white px-4 py-2 placeholder-white focus:outline-none"
+            />
+            <textarea
+              placeholder="Your Comment"
+              class="bg-transparent border border-white px-4 py-2 placeholder-white h-40 resize-none focus:outline-none"
+            ></textarea>
+            <button
+              type="submit"
+              class="border border-white px-6 py-2 hover:bg-white hover:text-black transition"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lenis JS -->
+    <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis();
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>
